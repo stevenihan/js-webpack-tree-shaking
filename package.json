@@ -1,0 +1,23 @@
+{
+  "name": "js-webpack-tree-shaking",
+  "version": "0.0.1",
+  "description": "Example of js + webpack 4 + tree-shaking",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --mode development"
+  },
+  "dependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/plugin-proposal-class-properties": "7.4.0",
+    "@babel/preset-env": "7.4.1",
+    "babel-loader": "8.0.5",
+    "path": "0.12.7",
+    "uglifyjs-webpack-plugin": "2.1.2",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  },
+  "author": {
+    "name": "Steven Ihan",
+    "email": "me@stevenihan.com"
+  }
+}
